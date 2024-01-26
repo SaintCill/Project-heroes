@@ -1,0 +1,234 @@
+html {
+    height: 100%;
+    width: 100%;
+    background: white;
+  }
+  
+  body {
+    display:flexbox;
+    align-items: flex-end;
+  }
+  
+  header h1 {
+    position: relative;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size:50px;
+    text-align: center;
+  }
+  
+  .mynav ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    background-color: #333;
+    overflow:hidden;
+  }
+  
+  .mynav li{
+    display:inline;
+    float:left;
+  }
+  
+  .mynav a {
+    display:block;
+    padding:8px;
+    background-color:#333;
+    color:white;
+    text-decoration: none;
+  }
+  
+  .mynav a:hover {
+    background-color: aqua;
+  }
+  
+  body #introduction {
+    position: relative;
+    top:60px;
+    text-align: center;
+    padding:80px;
+    z-index:100;
+    margin:0 auto;
+    width: 65%;
+  }
+  
+  #newsletter {
+    z-index:100;
+    position:relative;
+  }
+  
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    background: black;
+    height: auto;
+    width: 100vw;
+    padding: 40px 0 0 0;
+  }
+  
+  .footer {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:#4d4c4c;
+  }
+  
+  .footer p{
+    margin:10px auto;
+    line-height: 28px;
+    font-size: 14px;
+  }
+  
+  .socials li a {
+    display:block;
+    padding:8px;
+    background-color:#c5c4c4;
+  }
+  
+  .socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:1rem 0 3rem 0;
+  }
+  
+  .socials li {
+    margin:0 10px;
+  }
+  
+  .socials a{
+    text-decoration: none;
+    color:#fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+  }
+  
+  .socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+  }
+  
+  .socials a:hover i{
+    color:aqua;
+  }
+  
+  .footer-copyright {
+    background: #000;
+    width: 100vw;
+    padding: 20px 20px 50px 20px;
+  }
+  
+  .footer-copyright p{
+    font-size:14px;
+    word-spacing: 2px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #copyright-contrast {
+    color: white; /*Due to several tests with lighthouse, i had to change the color of the text from a grey into white. Since the icons are using the same styling rule in order to render in their color, i had to add seperate ruling for the copyright text */
+  }
+  
+  .juan-link {
+    display: inline-block;
+    text-decoration: none;
+    overflow: hidden; /* Prevents link activation outside the container */
+  }
+  
+  .image-container {
+    text-align: center;
+    position: relative;
+    width:20%;
+    left:50%;
+    transform:translate(-50%);
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .text-below-image {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  
+  article>h2 {
+    text-align:center;
+    position:relative;
+    top:30px;
+    left:50%;
+    transform:translate(-50%);
+    z-index:100;
+  }
+  
+  article>p {
+    text-align:center;
+    position:relative;
+    top:20px;
+    padding:10px;
+  }
+  
+  .coming-soon {
+    display:inline;
+    list-style:none;
+    background-color: white;
+  }
+  
+  .list-container {
+    width:25%;
+    text-align:center;
+    position:relative;
+    display:block;
+    transform:translate(-50%);
+    left:50%;
+    background-color:white;
+  } 
+  
+  .coming-soon li {
+    padding:5px;
+    margin:10px;
+  }
+  
+  .coming-soon a {
+    text-decoration:none;
+  }
+  
+  .juan-text {
+    padding:10px;
+    position:relative;
+    text-align:center;
+  }
+  
+  .juan-text h3 {
+    padding-top:10px;
+  }
+  
+  #juangarcia {
+    text-align:center;
+    font-size:50px;
+    padding:10px;
+  }
+  
+  #story {
+    padding:5px;
+    margin-top:20px;
+    margin-bottom:20px;
+  }
