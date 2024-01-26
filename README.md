@@ -35,7 +35,7 @@ This design was chosen after alot of back and forth regarding how i should prese
 - Drop down menu for content on the navigation bar that takes you to different categories, such as WW2, medieval, viking etc.
 
 # Testing
-!(https://lh3.googleusercontent.com/pw/ABLVV85hEse6IB5mFXuWxWjNCKGxeK4quSFm1Gp2pUcsbNgXIU1TMCgRRLTu8Rxg-jONSVbUNTMg5Ch5qHsO0KccuJS3A5teu_ExdALjQwmC_jr7iNKMTVw=w2400)
+![Screenshot of lighthouse test results](https://photos.app.goo.gl/HrKLg3f7jdusz7Z28)
 
 Website has been tested and deployed on both replit and github, aswell as tested for performance and feature function on Opera GX, Google Chrome, Edge and Firefox. The website was also tested on older versions of internet explorer running on older OS with the help of https://www.browserling.com/. I also ran additional lighthouse test through https://pagespeed.web.dev and performance test through https://www.webpagetest.org.
 Project was also put through several screen sizes without visible bugs or performance drop.
