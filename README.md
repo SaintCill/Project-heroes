@@ -46,6 +46,22 @@ Results from lighthouse test:
 ![Screenshot of lighthouse test results](https://lh3.googleusercontent.com/pw/ABLVV84k76TeWuWjwXZ8nKCXMt1TadKbI24Fes0uGnYCvEa-pBRl0f9B97pekcqO5jD65iGhbyy5KlfWc-7JfGUUzMsJODgyO0f7C7cBCmfmFceChEa-1Kc=w2400)
 
 
+# Deployment
+Deployment was initially done through replit, but was later changed to github. Steps taken to deploy are as follow:
+- Nagivated to settings in the github repository
+- In the side menu click pages
+- Chose to either deploy through branch, chose main and then saved
+  OR
+- Chose github actions and let github decide
+
+# Credits
+- Footer and navigation menu both had parts taken from tutorials by https://www.w3schools.com
+- Image used for Juan Garcia was sourced from wikipedia article by the same name https://en.wikipedia.org/wiki/Juan_Pujol_García
+- icons for the socials are from https://cdnjs.cloudflare.com/
+
+Liberal use of both replits built in AI aswell as chatgpt to check errors during creation of project, aswell as to write the text on Juan Garcia due to time shortage.
+
+
 
 
 
