@@ -42,6 +42,9 @@ Project was also put through several screen sizes without visible bugs or perfor
 
 W3C HTML Validator and jigsaw was used prior to deployment aswell as during deployment to find any unnecessary code and remove or change it. Currently code comes back clean if ran through any of those tests.
 
+Results from lighthouse test:
+![Screenshot of lighthouse test results](https://lh3.googleusercontent.com/pw/ABLVV84k76TeWuWjwXZ8nKCXMt1TadKbI24Fes0uGnYCvEa-pBRl0f9B97pekcqO5jD65iGhbyy5KlfWc-7JfGUUzMsJODgyO0f7C7cBCmfmFceChEa-1Kc=w2400)
+
 
 
 
